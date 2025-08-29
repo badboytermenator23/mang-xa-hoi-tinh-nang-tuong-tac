@@ -1,0 +1,14 @@
+{
+  "name": "mang-xa-hoi-tinh-nang-tuong-tac",
+  "version": "1.0.0",
+  "description": "Một ứng dụng web cho phép người dùng tương tác với các bài viết trên mạng xã hội.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}
