@@ -10,8 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Route gốc
 app.get('/', (req, res) => {
-    res.send('Chào mừng đến với ứng dụng tương tác bài viết mạng xã hội!
-    Hãy chia sẻ bài viết của bạn!'); // Cập nhật thông điệp chào mừng
+    res.send('Chào mừng đến với ứng dụng tương tác bài viết mạng xã hội!\nHãy chia sẻ bài viết của bạn!'); // Cập nhật thông điệp chào mừng
 });
 
 // Khởi chạy server
